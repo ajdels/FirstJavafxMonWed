@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<<<<<<< HEAD
 <?import javafx.scene.layout.*?>
 
 
+=======
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+>>>>>>> Initial commit
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bsu.comp152.firstjavafxmonwed.SecondWindow">
    <children>
       <BorderPane prefHeight="200.0" prefWidth="200.0">
          <bottom>
+<<<<<<< HEAD
             <BorderPane prefHeight="395.0" prefWidth="593.0" BorderPane.alignment="CENTER" />
+=======
+            <BorderPane prefHeight="395.0" prefWidth="593.0" BorderPane.alignment="CENTER">
+               <center>
+                  <Label text="Hi there" textFill="#b419d3" BorderPane.alignment="CENTER" />
+               </center>
+               <bottom>
+                  <Button mnemonicParsing="false" text="Button" BorderPane.alignment="CENTER" />
+               </bottom></BorderPane>
+>>>>>>> Initial commit
          </bottom>
       </BorderPane>
    </children>
